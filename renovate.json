@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    ":assignees(serhatyuna)",
     ":automergeDisabled",
     ":automergeMinor",
     ":enableVulnerabilityAlerts",
@@ -10,6 +9,7 @@
     ":prConcurrentLimit10",
     ":prHourlyLimit4"
   ],
+  "assignees": ["serhatyuna"],
   "timezone": "Europe/Istanbul",
   "schedule": ["before 11pm"],
   "baseBranches": ["main"]
