@@ -12,5 +12,6 @@
   "assignees": ["serhatyuna"],
   "timezone": "Europe/Istanbul",
   "schedule": ["before 11pm"],
-  "baseBranches": ["main"]
+  "baseBranches": ["main"],
+  "automergeSchedule": ["before 10am"]
 }
